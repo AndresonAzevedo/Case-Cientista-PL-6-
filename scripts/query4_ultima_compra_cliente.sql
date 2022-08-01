@@ -1,0 +1,5 @@
+
+SELECT f_Vendas.ID_PESSOA, MAX(d_Tempo.DT_REF) AS DT_ULTIMA_COMPRA
+FROM f_Vendas
+	JOIN d_Tempo ON f_Vendas.ID_TEMPO = d_Tempo.ID_TEMPO
+GROUP BY 1

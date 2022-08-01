@@ -1,0 +1,1 @@
+pagedown::chrome_print("C:/Users/andre/Desktop/Case Cientista PL (6)/relatorio_aplicacao_modelo.html")
